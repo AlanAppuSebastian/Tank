@@ -1,0 +1,27 @@
+{
+	"FileVersion" : 3,
+
+	"FriendlyName" : "PsRealVehicle",
+	"Version" : 3,
+	"VersionName" : "1.0-r5",
+	"CreatedBy" : "Pushkin Studio",
+	"CreatedByURL" : "https://github.com/PushkinStudio/",
+	"EngineVersion" : "4.24.0",
+	"Description" : "Plugin for Unreal Engine 4 with simple force-driven vehicle simulation",
+	"Category" : "Physics",
+	"CanContainContent" : true,
+
+	"Modules" :
+	[
+		{
+			"Name" : "PsRealVehiclePlugin",
+			"Type" : "Runtime",
+			"LoadingPhase": "PreDefault"
+		},
+		{
+			"Name": "PsRealVehicleEditorPlugin",
+			"Type": "UncookedOnly",
+			"LoadingPhase": "PreDefault"
+		}
+	]
+}
